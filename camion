@@ -1,0 +1,198 @@
+<event name="VehicleNewTruck1">
+        <pos x="11830.000000" z="12431.000000" a="-25.0" />
+    </event>
+
+
+
+event name="VehicleNewTruck1">
+        <nominal>8</nominal>
+        <min>5</min>
+        <max>11</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>15</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Truck_01_Covered"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Truck_01_Covered_Blue"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Truck_01_Covered_Orange"/>
+        </children>
+    </event>
+    
+    
+    <type name="Truck_01_Covered">
+        <attachments chance="1.00">
+            <item name="Truck_01_Wheel" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Truck_01_Wheel" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Truck_01_Wheel" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Truck_01_Wheel" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Truck_01_WheelDouble" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Truck_01_WheelDouble" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Truck_01_WheelDouble" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Truck_01_WheelDouble" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="TruckBattery" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HeadlightH7" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HeadlightH7" chance="1.00" />
+        </attachments>
+<attachments chance="1.00">
+            <item name="Truck_01_Hood" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Truck_01_Door_1_1" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Truck_01_Door_2_1" chance="1.00" />
+        </attachments>
+                <attachments chance="1.00">
+                    <item name="CanisterGasoline" chance="1.00" />
+                </attachments>
+                <attachments chance="1.00">
+                    <item name="CanisterGasoline" chance="1.00" />
+                </attachments>
+                <attachments chance="1.00">
+                    <item name="rice" chance="1.00" />
+                </attachments>
+
+                <attachments chance="1.00">
+                    <item name="TruckBattery" chance="1.00" />
+                </attachments>
+    </type>
+    <type name="Truck_01_Covered_Blue">
+        <attachments chance="1.00">
+            <item name="Truck_01_Wheel" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Truck_01_Wheel" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Truck_01_Wheel" chance="1.00" />
+        </attachments>
+<attachments chance="1.00">
+            <item name="Truck_01_Wheel" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Truck_01_WheelDouble" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Truck_01_WheelDouble" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Truck_01_WheelDouble" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Truck_01_WheelDouble" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="TruckBattery" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HeadlightH7" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HeadlightH7" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Truck_01_Hood_Blue" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Truck_01_Door_1_1_Blue" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Truck_01_Door_2_1_Blue" chance="1.00" />
+        </attachments>
+<attachments chance="1.00">
+                    <item name="CanisterGasoline" chance="1.00" />
+                </attachments>
+                <attachments chance="1.00">
+                    <item name="CanisterGasoline" chance="1.00" />
+                </attachments>
+                <attachments chance="1.00">
+                    <item name="rice" chance="1.00" />
+                </attachments>
+
+                <attachments chance="1.00">
+                    <item name="TruckBattery" chance="1.00" />
+                </attachments>
+    </type>
+    <type name="Truck_01_Covered_Orange">
+        <attachments chance="1.00">
+            <item name="Truck_01_Wheel" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Truck_01_Wheel" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Truck_01_Wheel" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Truck_01_Wheel" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Truck_01_WheelDouble" chance="1.00" />
+        </attachments>
+<attachments chance="1.00">
+            <item name="Truck_01_WheelDouble" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Truck_01_WheelDouble" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Truck_01_WheelDouble" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="TruckBattery" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HeadlightH7" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HeadlightH7" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Truck_01_Hood_Orange" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Truck_01_Door_1_1_Orange" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Truck_01_Door_2_1_Orange" chance="1.00" />
+        </attachments>
+<attachments chance="1.00">
+                    <item name="CanisterGasoline" chance="1.00" />
+                </attachments>
+                <attachments chance="1.00">
+                    <item name="CanisterGasoline" chance="1.00" />
+                </attachments>
+                <attachments chance="1.00">
+                    <item name="rice" chance="1.00" />
+                </attachments>
+
+                <attachments chance="1.00">
+                    <item name="TruckBattery" chance="1.00" />
+                </attachments>
+    </type>
